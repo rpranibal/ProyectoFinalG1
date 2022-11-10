@@ -1,0 +1,12 @@
+[
+  {
+    "userId": 1,
+    "correo": "hola@bimyou.cl",
+    "contraseña": 1234
+  },
+  {
+    "userId": 2,
+    "correo": "rpranibal@bimyou.cl",
+    "contraseña": 1234
+  }
+]

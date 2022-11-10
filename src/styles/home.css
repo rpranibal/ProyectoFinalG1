@@ -1,0 +1,173 @@
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  outline: none;
+}
+
+.fa-cart-shopping,
+.fa-heart,
+.fa-user,
+.fa-star,
+.fa-arrow-right-from-bracket {
+  font-size: 1.5rem;
+}
+
+.favorite {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.fa-star-of-life {
+  color: rgba(0, 0, 0, 0.22);
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+.fa-star-of-life:hover {
+  color: #0476d9;
+  transform: rotate(1rad);
+  font-size: 1.7rem;
+}
+
+.nav-gap {
+  column-gap: 10px;
+}
+
+.grilla-productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+.card {
+  width: 24%;
+}
+
+.navp {
+  padding: 0 2rem;
+}
+
+.categoria-img {
+  width: 30%;
+}
+
+.categoria-carrusel {
+  width: 70%;
+}
+
+.categoria-img-carrusel {
+  display: flex;
+  width: 100%;
+  column-gap: 2%;
+}
+
+.categoria-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slick-track {
+  display: flex;
+  column-gap: 10px;
+}
+
+h5.card-title.text-center {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: 300px;
+}
+
+@media only screen and (min-width: 980px) {
+  .slider-img {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .showmenu {
+    position: absolute;
+    top: 68px;
+    background: rgb(52, 58, 64);
+    z-index: 9999999;
+    padding: 30px;
+    width: 100vw;
+    left: 0px;
+  }
+
+  .grilla-productos {
+    width: 90%;
+  }
+
+  .card {
+    width: 47%;
+  }
+
+  .categoria-carrusel,
+  .categoria-img {
+    width: 100%;
+  }
+
+  .categoria-img-carrusel {
+    flex-direction: column;
+  }
+  .navp {
+    padding: 0 0.5em;
+  }
+
+  .slick-slide img {
+    height: 200px;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: #ffd700;
+}
+.off {
+  color: #ccc;
+}
+
+.ficha-productos {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  column-gap: 5%;
+}
+
+.img-description-tecnica-video {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-comprar {
+  width: 30%;
+  position: sticky;
+  top: 5%;
+  height: 200px;
+}
+
+.ficha-img img {
+  width: 50%;
+}
+
+.ficha-img {
+  display: flex;
+  justify-content: center;
+}
